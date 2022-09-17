@@ -79,7 +79,7 @@ gdb-multiarch firmware.elf
 (gdb) target remote localhost:3333
 (gdb) load
 (gdb) monitor reset init
-(gdb) continu
+(gdb) continue
 ```
 
 <br>

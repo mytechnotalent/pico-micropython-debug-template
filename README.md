@@ -8,5 +8,17 @@ A Raspberry Pi Pico RP2040 debug template repo with step-by-step instructions on
 
 <br>
 
+## Schematic
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Study_Buddy/blob/main/schematic.png?raw=true)
+
+## Parts
+[micro:bit](https://microbit.org/buy/?location=US&version=microbitV2)
+
+
+## STEP 1: Navigate To The FREE micro:bit Python Web Editor
+
+
+<br>
+
 ## License
 [MIT License](https://raw.githubusercontent.com/mytechnotalent/pico-micropython-debug-template/main/LICENSE)

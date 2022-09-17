@@ -1,0 +1,76 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+          <option value="E402" />
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="microbit.pin_logo.*" />
+          <option value="src.codal_port.manifest.freeze" />
+          <option value="board.SDA" />
+          <option value="board.SCL" />
+          <option value="lib.*" />
+          <option value="rp2" />
+          <option value="NeoPixel.wrap_target" />
+          <option value="NeoPixel.label" />
+          <option value="NeoPixel.out" />
+          <option value="NeoPixel.x" />
+          <option value="NeoPixel.not_x" />
+          <option value="NeoPixel.jmp" />
+          <option value="NeoPixel.nop" />
+          <option value="NeoPixel.wrap" />
+          <option value="time.sleep_ms" />
+          <option value="main.ST7735" />
+          <option value="machine.SoftSPI" />
+          <option value="machine.PWM" />
+          <option value="ST7735" />
+          <option value="time.sleep_us" />
+          <option value="modules.neopixel.wrap_target" />
+          <option value="modules.neopixel.label" />
+          <option value="modules.neopixel.out" />
+          <option value="modules.neopixel.x" />
+          <option value="modules.neopixel.not_x" />
+          <option value="modules.neopixel.jmp" />
+          <option value="modules.neopixel.nop" />
+          <option value="modules.neopixel.wrap" />
+          <option value="modules.display.SSD1306.write_cmd" />
+          <option value="modules.display.SSD1306.write_data" />
+          <option value="display.SSD1306.write_cmd" />
+          <option value="main.screen" />
+          <option value="main.keyboard" />
+          <option value="main.Rect" />
+          <option value="main.Actor" />
+          <option value="pages.element.BasePageElement.locator" />
+          <option value="btf.library.selenium.webdriver" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true">
+      <shellcheck_settings value="SC2039" />
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>

@@ -17,7 +17,35 @@ A Raspberry Pi Pico RP2040 debug template repo with step-by-step instructions on
 [Breadboard](https://www.amazon.com/DaFuRui-Solderless-Breadboard-Super-Plug/dp/B081YNHZF5) <br>
 [Breadboard Jumper Wires](https://www.amazon.com/IZOKEE-Solderless-Breadboard-Arduino-Project/dp/B08151TQHG) <br>
 
-## STEP 1: TBD
+## STEP 1: Clone MicroPython Repo
+```bash
+mkdir pico
+cd pico
+git clone -b master https://github.com/micropython/micropython.git
+cd micropython
+make -C ports/rp2 submodules
+make -C mpy-cross
+rm -rf .g*
+```
+
+## STEP 2: Create `main.py & Populate
+```python
+from utime import sleep
+
+name = foo
+number = 42
+
+while True:
+    print(name)
+    print(number)
+    sleep(5)
+```
+
+## STEP 3: Flash Firmware
+```bash
+./flash.sh
+```
+
 
 
 <br>

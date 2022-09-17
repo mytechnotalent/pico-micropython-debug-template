@@ -12,10 +12,10 @@ A Raspberry Pi Pico RP2040 debug template repo with step-by-step instructions on
 ![image](https://github.com/mytechnotalent/pico-micropython-debug-template/blob/main/schematic.png?raw=true)
 
 ## Parts
-[micro:bit](https://microbit.org/buy/?location=US&version=microbitV2)
+[Raspberry Pi 4 Model B 2019 Quad Core 64 Bit WiFi Bluetooth]([https://microbit.org/buy/?location=US&version=microbitV2](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X)
 
 
-## STEP 1: Navigate To The FREE micro:bit Python Web Editor
+## STEP 1: TBD
 
 
 <br>

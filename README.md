@@ -1,5 +1,5 @@
 # Pico MicroPython Debug Template
-A pico-debug-template where you can freeze your MicroPython files into C firmware and reverse engineer the binary with OpenOCD and GDB.
+A Raspberry Pi Pico RP2040 debug template repo with step-by-step instructions on how to freeze your MicroPython files into C firmware and reverse engineer the binary with OpenOCD and GDB.
 
 <br>
 

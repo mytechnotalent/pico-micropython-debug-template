@@ -28,7 +28,7 @@ make -C mpy-cross
 rm -rf .g*
 ```
 
-## STEP 2: Create `main.py & Populate
+## STEP 2: Create `main.py` & Populate
 ```python
 from utime import sleep
 

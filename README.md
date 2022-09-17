@@ -9,7 +9,7 @@ A Raspberry Pi Pico RP2040 debug template repo with step-by-step instructions on
 <br>
 
 ## Schematic
-![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Study_Buddy/blob/main/schematic.png?raw=true)
+![image](https://github.com/mytechnotalent/pico-micropython-debug-template/blob/main/schematic.png?raw=true)
 
 ## Parts
 [micro:bit](https://microbit.org/buy/?location=US&version=microbitV2)

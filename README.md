@@ -81,9 +81,16 @@ gdb-multiarch firmware.elf
 (gdb) target remote localhost:3333
 (gdb) load
 (gdb) monitor reset init
+(gdb) layout asm  # 0x100001e8 <_entry_point> movs r0, #0
+(gdb) b main  # 0x10028e2c <main> push {r0, r1, r2, r4, r5, lr} 
+(gdb) b *(main+98)
 (gdb) c
-CTRL+C
-b main
+(gdb) x/s $r0  # boot.py
+(gdb) b *(main+146)
+(gdb) c
+(gdb) x/s $r0  # main.py
+(gdb) x/s 0x1004239d  # 0x1004239d <mp_frozen_names+29> "main.py"
+
 ```
 
 ## STEP 9: Debugging RAW Hardware

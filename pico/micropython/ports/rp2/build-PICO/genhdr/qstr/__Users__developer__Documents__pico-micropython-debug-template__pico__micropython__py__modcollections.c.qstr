@@ -1,0 +1,6 @@
+Q(__name__)
+Q(ucollections)
+Q(deque)
+Q(namedtuple)
+Q(OrderedDict)
+Q(ucollections)

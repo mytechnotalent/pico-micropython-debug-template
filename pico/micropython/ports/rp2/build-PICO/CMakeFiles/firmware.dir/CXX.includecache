@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+cstdlib
+-
+

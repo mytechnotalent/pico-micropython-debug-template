@@ -1,0 +1,1 @@
+MP_REGISTER_MODULE(MP_QSTR__thread, mp_module_thread);

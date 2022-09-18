@@ -1,0 +1,1 @@
+MP_REGISTER_MODULE(MP_QSTR_umachine, mp_module_machine);

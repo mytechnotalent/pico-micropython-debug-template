@@ -1,0 +1,2 @@
+MP_REGISTER_ROOT_POINTER(void *rp2_uart_rx_buffer[2]);
+MP_REGISTER_ROOT_POINTER(void *rp2_uart_tx_buffer[2]);

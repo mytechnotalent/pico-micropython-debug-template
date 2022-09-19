@@ -1,4 +1,4 @@
-# Install script for directory: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs
+# Install script for directory: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/local/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/opt/local/bin/arm-none-eabi-objdump")
 endif()
 

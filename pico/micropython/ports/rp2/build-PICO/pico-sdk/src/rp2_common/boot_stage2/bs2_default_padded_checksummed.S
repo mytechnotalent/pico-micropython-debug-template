@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

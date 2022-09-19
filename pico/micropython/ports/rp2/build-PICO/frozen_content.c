@@ -114,8 +114,7 @@ enum {
     MP_QSTR_invalid_space_bit_space_count_space__brace_open__brace_close_,
     MP_QSTR__boot_dot_py,
     MP_QSTR_main_dot_py,
-    MP_QSTR_foo,
-    MP_QSTR_number,
+    MP_QSTR_led,
     MP_QSTR_uasyncio_slash___init___dot_py,
     MP_QSTR_core,
     MP_QSTR_funcs,
@@ -344,8 +343,7 @@ const qstr_hash_t mp_qstr_frozen_const_hashes[] = {
     14,
     171,
     169,
-    163,
-    70,
+    104,
     194,
     190,
     8,
@@ -575,7 +573,6 @@ const qstr_len_t mp_qstr_frozen_const_lengths[] = {
     8,
     7,
     3,
-    6,
     20,
     4,
     5,
@@ -736,7 +733,7 @@ const qstr_pool_t mp_qstr_frozen_const_pool = {
     &mp_qstr_const_pool, // previous pool
     MP_QSTRnumber_of, // previous pool size
     10, // allocated entries
-    227, // used entries
+    226, // used entries
     (qstr_hash_t *)mp_qstr_frozen_const_hashes,
     (qstr_len_t *)mp_qstr_frozen_const_lengths,
     {
@@ -812,8 +809,7 @@ const qstr_pool_t mp_qstr_frozen_const_pool = {
         "invalid bit count {}",
         "_boot.py",
         "main.py",
-        "foo",
-        "number",
+        "led",
         "uasyncio/__init__.py",
         "core",
         "funcs",
@@ -972,7 +968,7 @@ const qstr_pool_t mp_qstr_frozen_const_pool = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module _boot_fat
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/_boot_fat.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/_boot_fat.mpy
 // - frozen file name: _boot_fat.py
 // - .mpy header: 4d:06:00:1f
 
@@ -1095,7 +1091,7 @@ static const mp_frozen_module_t frozen_module__boot_fat = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module rp2
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/rp2.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/rp2.mpy
 // - frozen file name: rp2.py
 // - .mpy header: 4d:06:00:1f
 
@@ -3479,7 +3475,7 @@ static const mp_frozen_module_t frozen_module_rp2 = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module _boot
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/_boot.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/_boot.mpy
 // - frozen file name: _boot.py
 // - .mpy header: 4d:06:00:1f
 
@@ -3603,15 +3599,15 @@ static const mp_frozen_module_t frozen_module__boot = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module main
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/main.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/main.mpy
 // - frozen file name: main.py
 // - .mpy header: 4d:06:00:1f
 
 // frozen bytecode for file main.py, scope main__lt_module_gt_
-static const byte fun_data_main__lt_module_gt_[54] = {
-    0x08,0x12, // prelude
+static const byte fun_data_main__lt_module_gt_[63] = {
+    0x10,0x12, // prelude
     0x01, // names: <module>
-    0x80,0x16,0x4c,0x24,0x43,0x20,0x27,0x27, // code info
+    0x80,0x16,0x2c,0x4c,0x6b,0x20,0x60,0x27, // code info
     0x80, // LOAD_CONST_SMALL_INT 0
     0x10,0x02, // LOAD_CONST_STRING 'sleep'
     0x2a,0x01, // BUILD_TUPLE 1
@@ -3619,23 +3615,28 @@ static const byte fun_data_main__lt_module_gt_[54] = {
     0x1c,0x02, // IMPORT_FROM 'sleep'
     0x16,0x02, // STORE_NAME 'sleep'
     0x59, // POP_TOP
-    0x10,0x04, // LOAD_CONST_STRING 'foo'
-    0x16,0x05, // STORE_NAME 'name'
-    0xaa, // LOAD_CONST_SMALL_INT 42
-    0x16,0x06, // STORE_NAME 'number'
-    0x11,0x07, // LOAD_NAME 'print'
-    0x11,0x05, // LOAD_NAME 'name'
-    0x34,0x01, // CALL_FUNCTION 1
+    0x80, // LOAD_CONST_SMALL_INT 0
+    0x10,0x04, // LOAD_CONST_STRING 'Pin'
+    0x2a,0x01, // BUILD_TUPLE 1
+    0x1b,0x05, // IMPORT_NAME 'machine'
+    0x1c,0x04, // IMPORT_FROM 'Pin'
+    0x16,0x04, // STORE_NAME 'Pin'
     0x59, // POP_TOP
-    0x11,0x07, // LOAD_NAME 'print'
-    0x11,0x06, // LOAD_NAME 'number'
-    0x34,0x01, // CALL_FUNCTION 1
+    0x11,0x04, // LOAD_NAME 'Pin'
+    0x99, // LOAD_CONST_SMALL_INT 25
+    0x11,0x04, // LOAD_NAME 'Pin'
+    0x13,0x06, // LOAD_ATTR 'OUT'
+    0x34,0x02, // CALL_FUNCTION 2
+    0x16,0x08, // STORE_NAME 'led'
+    0x11,0x08, // LOAD_NAME 'led'
+    0x14,0x07, // LOAD_METHOD 'toggle'
+    0x36,0x00, // CALL_METHOD 0
     0x59, // POP_TOP
     0x11,0x02, // LOAD_NAME 'sleep'
     0x85, // LOAD_CONST_SMALL_INT 5
     0x34,0x01, // CALL_FUNCTION 1
     0x59, // POP_TOP
-    0x42,0x2a, // JUMP -22
+    0x42,0x31, // JUMP -15
     0x51, // LOAD_CONST_NONE
     0x63, // RETURN_VALUE
 };
@@ -3645,14 +3646,14 @@ static const mp_raw_code_t raw_code_main__lt_module_gt_ = {
     .n_pos_args = 0,
     .fun_data = fun_data_main__lt_module_gt_,
     #if MICROPY_PERSISTENT_CODE_SAVE || MICROPY_DEBUG_PRINTERS
-    .fun_data_len = 54,
+    .fun_data_len = 63,
     #endif
     .children = NULL,
     #if MICROPY_PERSISTENT_CODE_SAVE
     .n_children = 0,
     #if MICROPY_PY_SYS_SETTRACE
     .prelude = {
-        .n_state = 2,
+        .n_state = 3,
         .n_exc_stack = 0,
         .scope_flags = 0,
         .n_pos_args = 0,
@@ -3673,15 +3674,16 @@ static const mp_raw_code_t raw_code_main__lt_module_gt_ = {
     #endif
 };
 
-static const qstr_short_t const_qstr_table_data_main[8] = {
+static const qstr_short_t const_qstr_table_data_main[9] = {
     MP_QSTR_main_dot_py,
     MP_QSTR__lt_module_gt_,
     MP_QSTR_sleep,
     MP_QSTR_utime,
-    MP_QSTR_foo,
-    MP_QSTR_name,
-    MP_QSTR_number,
-    MP_QSTR_print,
+    MP_QSTR_Pin,
+    MP_QSTR_machine,
+    MP_QSTR_OUT,
+    MP_QSTR_toggle,
+    MP_QSTR_led,
 };
 
 static const mp_frozen_module_t frozen_module_main = {
@@ -3694,7 +3696,7 @@ static const mp_frozen_module_t frozen_module_main = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module uasyncio___init__
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/__init__.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/__init__.mpy
 // - frozen file name: uasyncio/__init__.py
 // - .mpy header: 4d:06:00:1f
 
@@ -3910,7 +3912,7 @@ static const mp_frozen_module_t frozen_module_uasyncio___init__ = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module uasyncio_core
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/core.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/core.mpy
 // - frozen file name: uasyncio/core.py
 // - .mpy header: 4d:06:00:1f
 
@@ -6361,7 +6363,7 @@ static const mp_frozen_module_t frozen_module_uasyncio_core = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module uasyncio_event
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/event.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/event.mpy
 // - frozen file name: uasyncio/event.py
 // - .mpy header: 4d:06:00:1f
 
@@ -7128,7 +7130,7 @@ static const mp_frozen_module_t frozen_module_uasyncio_event = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module uasyncio_funcs
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/funcs.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/funcs.mpy
 // - frozen file name: uasyncio/funcs.py
 // - .mpy header: 4d:06:00:1f
 
@@ -7950,7 +7952,7 @@ static const mp_frozen_module_t frozen_module_uasyncio_funcs = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module uasyncio_lock
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/lock.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/lock.mpy
 // - frozen file name: uasyncio/lock.py
 // - .mpy header: 4d:06:00:1f
 
@@ -8489,7 +8491,7 @@ static const mp_frozen_module_t frozen_module_uasyncio_lock = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module uasyncio_stream
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/stream.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/uasyncio/stream.mpy
 // - frozen file name: uasyncio/stream.py
 // - .mpy header: 4d:06:00:1f
 
@@ -10186,7 +10188,7 @@ static const mp_frozen_module_t frozen_module_uasyncio_stream = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module onewire
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/onewire.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/onewire.mpy
 // - frozen file name: onewire.py
 // - .mpy header: 4d:06:00:1f
 
@@ -11213,7 +11215,7 @@ static const mp_frozen_module_t frozen_module_onewire = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module ds18x20
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/ds18x20.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/ds18x20.mpy
 // - frozen file name: ds18x20.py
 // - .mpy header: 4d:06:00:1f
 
@@ -11899,7 +11901,7 @@ static const mp_frozen_module_t frozen_module_ds18x20 = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module dht
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/dht.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/dht.mpy
 // - frozen file name: dht.py
 // - .mpy header: 4d:06:00:1f
 
@@ -12601,7 +12603,7 @@ static const mp_frozen_module_t frozen_module_dht = {
 
 ////////////////////////////////////////////////////////////////////////////////
 // frozen module neopixel
-// - original source file: /Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/neopixel.mpy
+// - original source file: /Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/frozen_mpy/neopixel.mpy
 // - frozen file name: neopixel.py
 // - .mpy header: 4d:06:00:1f
 
@@ -13331,8 +13333,8 @@ MICROPY_FROZEN_LIST_ITEM("neopixel", "neopixel.py")
 
 /*
 byte sizes:
-qstr content: 227 unique, 2479 bytes
-bc content: 7631
+qstr content: 226 unique, 2470 bytes
+bc content: 7640
 const str content: 62
 const int content: 4
 const obj content: 72

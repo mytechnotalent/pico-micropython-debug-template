@@ -1,17 +1,17 @@
-# 1 "<stdin>"
-# 1 "<built-in>"
-# 1 "<command-line>"
+# 0 "<stdin>"
+# 0 "<built-in>"
+# 0 "<command-line>"
 # 1 "<stdin>"
 # 29 "<stdin>"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/py/mpconfig.h" 1
-# 75 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/py/mpconfig.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 1
-# 29 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h"
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h" 1 3 4
-# 9 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h" 3 4
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdint.h" 1 3 4
-# 12 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdint.h" 3 4
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 1 3 4
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/py/mpconfig.h" 1
+# 75 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/py/mpconfig.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 1
+# 29 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h"
+# 1 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stdint.h" 1 3 4
+# 9 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stdint.h" 3 4
+# 1 "/opt/local/arm-none-eabi/include/stdint.h" 1 3 4
+# 12 "/opt/local/arm-none-eabi/include/stdint.h" 3 4
+# 1 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 1 3 4
 
 
 
@@ -19,46 +19,46 @@
 
 
 
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/features.h" 1 3 4
-# 28 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/features.h" 3 4
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/_newlib_version.h" 1 3 4
-# 29 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/features.h" 2 3 4
-# 9 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 2 3 4
-# 41 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 3 4
+# 1 "/opt/local/arm-none-eabi/include/sys/features.h" 1 3 4
+# 28 "/opt/local/arm-none-eabi/include/sys/features.h" 3 4
+# 1 "/opt/local/arm-none-eabi/include/_newlib_version.h" 1 3 4
+# 29 "/opt/local/arm-none-eabi/include/sys/features.h" 2 3 4
+# 9 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 2 3 4
+# 41 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 3 4
 
-# 41 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 3 4
+# 41 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 3 4
 typedef signed char __int8_t;
 
 typedef unsigned char __uint8_t;
-# 55 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 3 4
+# 55 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 3 4
 typedef short int __int16_t;
 
 typedef short unsigned int __uint16_t;
-# 77 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 3 4
+# 77 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 3 4
 typedef long int __int32_t;
 
 typedef long unsigned int __uint32_t;
-# 103 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 3 4
+# 103 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 3 4
 typedef long long int __int64_t;
 
 typedef long long unsigned int __uint64_t;
-# 134 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 3 4
+# 134 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 3 4
 typedef signed char __int_least8_t;
 
 typedef unsigned char __uint_least8_t;
-# 160 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 3 4
+# 160 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 3 4
 typedef short int __int_least16_t;
 
 typedef short unsigned int __uint_least16_t;
-# 182 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 3 4
+# 182 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 3 4
 typedef long int __int_least32_t;
 
 typedef long unsigned int __uint_least32_t;
-# 200 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 3 4
+# 200 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 3 4
 typedef long long int __int_least64_t;
 
 typedef long long unsigned int __uint_least64_t;
-# 214 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_default_types.h" 3 4
+# 214 "/opt/local/arm-none-eabi/include/machine/_default_types.h" 3 4
 typedef long long int __intmax_t;
 
 
@@ -78,9 +78,9 @@ typedef long long unsigned int __uintmax_t;
 typedef int __intptr_t;
 
 typedef unsigned int __uintptr_t;
-# 13 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdint.h" 2 3 4
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_intsup.h" 1 3 4
-# 35 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_intsup.h" 3 4
+# 13 "/opt/local/arm-none-eabi/include/stdint.h" 2 3 4
+# 1 "/opt/local/arm-none-eabi/include/sys/_intsup.h" 1 3 4
+# 35 "/opt/local/arm-none-eabi/include/sys/_intsup.h" 3 4
        
        
        
@@ -89,7 +89,7 @@ typedef unsigned int __uintptr_t;
        
        
        
-# 190 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_intsup.h" 3 4
+# 190 "/opt/local/arm-none-eabi/include/sys/_intsup.h" 3 4
        
        
        
@@ -98,9 +98,9 @@ typedef unsigned int __uintptr_t;
        
        
        
-# 14 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdint.h" 2 3 4
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_stdint.h" 1 3 4
-# 20 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_stdint.h" 3 4
+# 14 "/opt/local/arm-none-eabi/include/stdint.h" 2 3 4
+# 1 "/opt/local/arm-none-eabi/include/sys/_stdint.h" 1 3 4
+# 20 "/opt/local/arm-none-eabi/include/sys/_stdint.h" 3 4
 typedef __int8_t int8_t ;
 
 
@@ -164,7 +164,7 @@ typedef __intptr_t intptr_t;
 
 
 typedef __uintptr_t uintptr_t;
-# 15 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdint.h" 2 3 4
+# 15 "/opt/local/arm-none-eabi/include/stdint.h" 2 3 4
 
 
 
@@ -191,30 +191,30 @@ typedef __uint_least32_t uint_least32_t;
 
 typedef __int_least64_t int_least64_t;
 typedef __uint_least64_t uint_least64_t;
-# 51 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdint.h" 3 4
+# 51 "/opt/local/arm-none-eabi/include/stdint.h" 3 4
   typedef int int_fast8_t;
   typedef unsigned int uint_fast8_t;
-# 61 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdint.h" 3 4
+# 61 "/opt/local/arm-none-eabi/include/stdint.h" 3 4
   typedef int int_fast16_t;
   typedef unsigned int uint_fast16_t;
-# 71 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdint.h" 3 4
+# 71 "/opt/local/arm-none-eabi/include/stdint.h" 3 4
   typedef int int_fast32_t;
   typedef unsigned int uint_fast32_t;
-# 81 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdint.h" 3 4
+# 81 "/opt/local/arm-none-eabi/include/stdint.h" 3 4
   typedef long long int int_fast64_t;
   typedef long long unsigned int uint_fast64_t;
-# 10 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h" 2 3 4
-# 30 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 1
-# 10 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 1
-# 22 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 1
-# 12 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/assert.h" 1
-# 10 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/assert.h"
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stdbool.h" 1 3 4
-# 11 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/assert.h" 2
+# 10 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stdint.h" 2 3 4
+# 30 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 1
+# 10 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 1
+# 22 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 1
+# 12 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/assert.h" 1
+# 10 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/assert.h"
+# 1 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stdbool.h" 1 3 4
+# 11 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/assert.h" 2
 
 
 
@@ -222,53 +222,53 @@ typedef __uint_least64_t uint_least64_t;
 
 
 
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/assert.h" 1 3
-# 9 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/assert.h" 3
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/_ansi.h" 1 3
-# 10 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/_ansi.h" 3
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/newlib.h" 1 3
-# 11 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/_ansi.h" 2 3
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/config.h" 1 3
+# 1 "/opt/local/arm-none-eabi/include/assert.h" 1 3
+# 9 "/opt/local/arm-none-eabi/include/assert.h" 3
+# 1 "/opt/local/arm-none-eabi/include/_ansi.h" 1 3
+# 10 "/opt/local/arm-none-eabi/include/_ansi.h" 3
+# 1 "/opt/local/arm-none-eabi/include/newlib.h" 1 3
+# 11 "/opt/local/arm-none-eabi/include/_ansi.h" 2 3
+# 1 "/opt/local/arm-none-eabi/include/sys/config.h" 1 3
 
 
 
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/ieeefp.h" 1 3
-# 5 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/config.h" 2 3
-# 12 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/_ansi.h" 2 3
-# 10 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/assert.h" 2 3
-# 39 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/assert.h" 3
+# 1 "/opt/local/arm-none-eabi/include/machine/ieeefp.h" 1 3
+# 5 "/opt/local/arm-none-eabi/include/sys/config.h" 2 3
+# 12 "/opt/local/arm-none-eabi/include/_ansi.h" 2 3
+# 10 "/opt/local/arm-none-eabi/include/assert.h" 2 3
+# 39 "/opt/local/arm-none-eabi/include/assert.h" 3
 void __assert (const char *, int, const char *)
      __attribute__ ((__noreturn__));
 void __assert_func (const char *, int, const char *, const char *)
      __attribute__ ((__noreturn__));
-# 19 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/assert.h" 2
-# 13 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 2
+# 19 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/assert.h" 2
+# 13 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 2
 
 
 
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 1 3 4
-# 143 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 3 4
+# 1 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 1 3 4
+# 145 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 3 4
 typedef int ptrdiff_t;
-# 209 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 3 4
+# 214 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 3 4
 typedef unsigned int size_t;
-# 321 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 3 4
+# 329 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 415 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 3 4
+# 424 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 3 4
 typedef struct {
   long long __max_align_ll __attribute__((__aligned__(__alignof__(long long))));
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
-# 426 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 3 4
+# 435 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 3 4
 } max_align_t;
-# 17 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 2
+# 17 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 2
 
 
-# 18 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
+# 18 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
 typedef unsigned int uint;
-# 33 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
+# 33 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
 typedef struct {
     uint64_t _private_us_since_boot;
 } absolute_time_t;
-# 44 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
+# 44 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
 static inline uint64_t to_us_since_boot(absolute_time_t t) {
 
 
@@ -276,28 +276,28 @@ static inline uint64_t to_us_since_boot(absolute_time_t t) {
     return t._private_us_since_boot;
 
 }
-# 59 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
+# 59 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
 static inline void update_us_since_boot(absolute_time_t *t, uint64_t us_since_boot) {
 
 
 
     
-# 63 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 3
+# 63 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 3
    ((
-# 63 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
+# 63 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
    us_since_boot <= 
-# 63 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 3 4
-   (0x7fffffffffffffffLL)) ? (void)0 : __assert_func ("/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h", 63, __func__, 
-# 63 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
+# 63 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 3 4
+   (0x7fffffffffffffffLL)) ? (void)0 : __assert_func ("/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h", 63, __func__, 
+# 63 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
    "us_since_boot <= INT64_MAX"
-# 63 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 3
+# 63 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 3
    ))
-# 63 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
+# 63 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
                                      ;
     t->_private_us_since_boot = us_since_boot;
 
 }
-# 81 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
+# 81 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h"
 typedef struct {
     int16_t year;
     int8_t month;
@@ -307,70 +307,70 @@ typedef struct {
     int8_t min;
     int8_t sec;
 } datetime_t;
-# 23 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/generated/pico_base/pico/version.h" 1
-# 24 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 2
+# 23 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/generated/pico_base/pico/version.h" 1
+# 24 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 2
 
 
 
 
 
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/config.h" 1
-# 19 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/config.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/generated/pico_base/pico/config_autogen.h" 1
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/config.h" 1
+# 19 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/config.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/generated/pico_base/pico/config_autogen.h" 1
 
 
 
 
 
 
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/boards/include/boards/pico.h" 1
-# 8 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/generated/pico_base/pico/config_autogen.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/boards/include/boards/pico.h" 1
+# 8 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/generated/pico_base/pico/config_autogen.h" 2
 
 
 
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h" 1
-# 11 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/generated/pico_base/pico/config_autogen.h" 2
-# 20 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/config.h" 2
-# 30 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h" 1
+# 12 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/generated/pico_base/pico/config_autogen.h" 2
+# 20 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/config.h" 2
+# 30 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 2
 
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 1
-# 19 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h" 1
-# 20 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h" 1
-# 21 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h" 1
-# 22 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 2
-# 71 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/cdefs.h" 1 3
-# 47 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/cdefs.h" 3
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 1 3 4
-# 48 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/cdefs.h" 2 3
-# 72 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 1
-# 73 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 2
-# 268 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 1
+# 19 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h" 1
+# 20 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h" 1
+# 21 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h" 1
+# 22 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 2
+# 71 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 1 "/opt/local/arm-none-eabi/include/sys/cdefs.h" 1 3
+# 47 "/opt/local/arm-none-eabi/include/sys/cdefs.h" 3
+# 1 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 1 3 4
+# 48 "/opt/local/arm-none-eabi/include/sys/cdefs.h" 2 3
+# 72 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/types.h" 1
+# 73 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 2
+# 268 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
 static inline void __breakpoint(void) {
     __asm__("bkpt #0");
 }
-# 284 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 284 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
 
-# 284 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 3
+# 284 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 284 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 284 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
               static void __compiler_memory_barrier(void) {
     __asm__ volatile ("" : : : "memory");
 }
-# 304 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 304 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
 void __attribute__((noreturn)) panic_unsupported(void);
-# 315 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 315 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
 void __attribute__((noreturn)) panic(const char *fmt, ...);
-# 325 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 325 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
 
-# 325 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 3 4
+# 325 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 3 4
 _Bool 
-# 325 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 325 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
     running_on_fpga(void);
 
 
@@ -390,24 +390,24 @@ static inline uint8_t rp2040_rom_version(void) {
     return *(uint8_t*)0x13;
 #pragma GCC diagnostic pop
 }
-# 352 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 352 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
 static 
-# 352 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 3
+# 352 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 3
       __inline__ __attribute__((__always_inline__)) 
-# 352 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 352 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
                      void tight_loop_contents(void) {}
-# 364 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 364 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
 
-# 364 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 3
+# 364 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 364 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 364 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
               static int32_t __mul_instruction(int32_t a, int32_t b) {
     asm ("mul %0, %1" : "+l" (a) : "l" (b) : );
     return a;
 }
-# 399 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 399 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
 uint __get_current_exception(void);
-# 422 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 422 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
 static inline void busy_wait_at_least_cycles(uint32_t minimum_cycles) {
     __asm volatile (
         ".syntax unified\n"
@@ -423,15 +423,15 @@ static inline void busy_wait_at_least_cycles(uint32_t minimum_cycles) {
 
 
 
-# 436 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 3
+# 436 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 436 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
+# 436 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h"
               static uint get_core_num(void) {
     return (*(uint32_t *) (0xd0000000u + 0x00000000u));
 }
-# 32 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/error.h" 1
-# 16 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/error.h"
+# 32 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/error.h" 1
+# 16 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico/error.h"
 enum pico_error_codes {
     PICO_OK = 0,
     PICO_ERROR_NONE = 0,
@@ -442,16 +442,16 @@ enum pico_error_codes {
     PICO_ERROR_INVALID_ARG = -5,
     PICO_ERROR_IO = -6,
 };
-# 33 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 2
-# 11 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 1
-# 11 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 1
-# 11 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h" 1
-# 12 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 1
-# 63 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 33 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_base/include/pico.h" 2
+# 11 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 1
+# 11 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 1
+# 11 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h" 1
+# 12 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 1
+# 63 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
 typedef volatile uint32_t io_rw_32;
 typedef const volatile uint32_t io_ro_32;
 typedef volatile uint32_t io_wo_32;
@@ -464,33 +464,33 @@ typedef volatile uint8_t io_wo_8;
 
 typedef volatile uint8_t *const ioptr;
 typedef ioptr const const_ioptr;
-# 93 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 93 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
 static 
-# 93 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
+# 93 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
       __inline__ __attribute__((__always_inline__)) 
-# 93 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 93 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
                      uint32_t xip_alias_check_addr(const void *addr) {
     uint32_t rc = (uintptr_t)addr;
     ({if (((0 || 0) && !0)) 
-# 95 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
+# 95 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
    ((
-# 95 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 95 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
    rc >= 0x10000000u && rc < 0x11000000u
-# 95 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
-   ) ? (void)0 : __assert_func ("/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h", 95, __func__, 
-# 95 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 95 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
+   ) ? (void)0 : __assert_func ("/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h", 95, __func__, 
+# 95 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
    "rc >= 0x10000000u && rc < 0x11000000u"
-# 95 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
+# 95 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
    ))
-# 95 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 95 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
    ;});
     return rc;
 }
-# 121 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 121 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
 
-# 121 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
+# 121 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 121 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 121 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
               static void hw_set_bits(io_rw_32 *addr, uint32_t mask) {
     *(io_rw_32 *) ((void *)((0x2u << 12u) | ((uintptr_t)((volatile void *) addr)))) = mask;
 }
@@ -502,9 +502,9 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 131 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
+# 131 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 131 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 131 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
               static void hw_clear_bits(io_rw_32 *addr, uint32_t mask) {
     *(io_rw_32 *) ((void *)((0x3u << 12u) | ((uintptr_t)((volatile void *) addr)))) = mask;
 }
@@ -516,24 +516,24 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 141 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
+# 141 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 141 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 141 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
               static void hw_xor_bits(io_rw_32 *addr, uint32_t mask) {
     *(io_rw_32 *) ((void *)((0x1u << 12u) | ((uintptr_t)((volatile void *) addr)))) = mask;
 }
-# 157 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 157 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
 
-# 157 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
+# 157 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 157 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
+# 157 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h"
               static void hw_write_masked(io_rw_32 *addr, uint32_t values, uint32_t write_mask) {
     hw_xor_bits(addr, (*addr ^ values) & write_mask);
 }
-# 13 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h" 1
-# 14 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h" 2
-# 23 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h"
+# 13 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h" 1
+# 14 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h" 2
+# 23 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h"
 typedef struct {
    
 
@@ -617,36 +617,36 @@ typedef struct {
 
 
 
-# 105 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h" 3
+# 105 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h" 3
 _Static_assert
-# 105 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h"
+# 105 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h"
             ( 4u == 4, "");
-# 12 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 2
-# 53 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 12 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 2
+# 53 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
 static inline void check_hardware_alarm_num_param(
-# 53 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3
+# 53 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3
                                                  __attribute__((__unused__)) 
-# 53 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 53 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
                                                           uint alarm_num) {
     ({if (((0 || 0) && !0)) 
-# 54 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3
+# 54 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3
    ((
-# 54 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 54 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
    !(alarm_num >= 4u)
-# 54 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3
-   ) ? (void)0 : __assert_func ("/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h", 54, __func__, 
-# 54 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 54 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3
+   ) ? (void)0 : __assert_func ("/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h", 54, __func__, 
+# 54 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
    "!(alarm_num >= 4u)"
-# 54 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3
+# 54 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3
    ))
-# 54 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 54 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
    ;});
 }
-# 65 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 65 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
 static inline uint32_t time_us_32(void) {
     return ((timer_hw_t *)0x40054000u)->timerawl;
 }
-# 78 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 78 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
 uint64_t time_us_64(void);
 
 
@@ -684,9 +684,9 @@ void busy_wait_until(absolute_time_t t);
 
 
 static inline 
-# 114 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3 4
+# 114 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3 4
              _Bool 
-# 114 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 114 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
                   time_reached(absolute_time_t t) {
     uint64_t target = to_us_since_boot(t);
     uint32_t hi_target = (uint32_t)(target >> 32u);
@@ -701,7 +701,7 @@ static inline
 
 
 typedef void (*hardware_alarm_callback_t)(uint alarm_num);
-# 137 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 137 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
 void hardware_alarm_claim(uint alarm_num);
 
 
@@ -711,24 +711,24 @@ void hardware_alarm_claim(uint alarm_num);
 
 
 void hardware_alarm_unclaim(uint alarm_num);
-# 154 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 154 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
 
-# 154 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3 4
+# 154 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3 4
 _Bool 
-# 154 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 154 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
     hardware_alarm_is_claimed(uint alarm_num);
-# 172 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 172 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
 void hardware_alarm_set_callback(uint alarm_num, hardware_alarm_callback_t callback);
-# 184 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 184 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
 
-# 184 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3 4
+# 184 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h" 3 4
 _Bool 
-# 184 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 184 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
     hardware_alarm_set_target(uint alarm_num, absolute_time_t t);
-# 193 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
+# 193 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h"
 void hardware_alarm_cancel(uint alarm_num);
-# 12 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 2
-# 61 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 12 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 2
+# 61 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline absolute_time_t get_absolute_time(void) {
     absolute_time_t t;
     update_us_since_boot(&t, time_us_64());
@@ -742,12 +742,12 @@ static inline uint32_t us_to_ms(uint64_t us) {
         return ((uint32_t)us) / 1000u;
     }
 }
-# 82 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 82 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline uint32_t to_ms_since_boot(absolute_time_t t) {
     uint64_t us = to_us_since_boot(t);
     return us_to_ms(us);
 }
-# 94 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 94 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline absolute_time_t delayed_by_us(const absolute_time_t t, uint64_t us) {
     absolute_time_t t2;
     uint64_t base = to_us_since_boot(t);
@@ -758,7 +758,7 @@ static inline absolute_time_t delayed_by_us(const absolute_time_t t, uint64_t us
     update_us_since_boot(&t2, delayed);
     return t2;
 }
-# 112 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 112 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline absolute_time_t delayed_by_ms(const absolute_time_t t, uint32_t ms) {
     absolute_time_t t2;
     uint64_t base = to_us_since_boot(t);
@@ -789,7 +789,7 @@ static inline absolute_time_t make_timeout_time_us(uint64_t us) {
 static inline absolute_time_t make_timeout_time_ms(uint32_t ms) {
     return delayed_by_ms(get_absolute_time(), ms);
 }
-# 154 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 154 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline int64_t absolute_time_diff_us(absolute_time_t from, absolute_time_t to) {
     return (int64_t)(to_us_since_boot(to) - to_us_since_boot(from));
 }
@@ -808,9 +808,9 @@ extern const absolute_time_t at_the_end_of_time;
 
 
 static inline 
-# 171 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 171 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
              _Bool 
-# 171 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 171 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                   is_at_the_end_of_time(absolute_time_t t) {
     return to_us_since_boot(t) == to_us_since_boot(at_the_end_of_time);
 }
@@ -827,27 +827,27 @@ extern const absolute_time_t nil_time;
 
 
 static inline 
-# 186 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 186 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
              _Bool 
-# 186 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 186 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                   is_nil_time(absolute_time_t t) {
     return !to_us_since_boot(t);
 }
-# 219 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 219 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 void sleep_until(absolute_time_t target);
-# 229 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 229 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 void sleep_us(uint64_t us);
-# 238 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 238 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 void sleep_ms(uint32_t ms);
-# 273 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 273 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 
-# 273 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 273 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
 _Bool 
-# 273 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 273 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
     best_effort_wfe_or_timeout(absolute_time_t timeout_timestamp);
-# 346 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 346 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 typedef int32_t alarm_id_t;
-# 357 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 357 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 typedef int64_t (*alarm_callback_t)(alarm_id_t id, void *user_data);
 
 typedef struct alarm_pool alarm_pool_t;
@@ -857,9 +857,9 @@ typedef struct alarm_pool alarm_pool_t;
 
 
 void alarm_pool_init_default(void);
-# 375 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 375 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 alarm_pool_t *alarm_pool_get_default(void);
-# 396 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 396 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 alarm_pool_t *alarm_pool_create(uint hardware_alarm_num, uint max_timers);
 
 
@@ -877,55 +877,55 @@ uint alarm_pool_hardware_alarm_num(alarm_pool_t *pool);
 
 
 void alarm_pool_destroy(alarm_pool_t *pool);
-# 437 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 437 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 alarm_id_t alarm_pool_add_alarm_at(alarm_pool_t *pool, absolute_time_t time, alarm_callback_t callback, void *user_data, 
-# 437 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 437 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
                                                                                                                         _Bool 
-# 437 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 437 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                                                                                                                              fire_if_past);
-# 462 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 462 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline alarm_id_t alarm_pool_add_alarm_in_us(alarm_pool_t *pool, uint64_t us, alarm_callback_t callback, void *user_data, 
-# 462 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 462 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
                                                                                                                                 _Bool 
-# 462 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 462 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                                                                                                                                      fire_if_past) {
     return alarm_pool_add_alarm_at(pool, delayed_by_us(get_absolute_time(), us), callback, user_data, fire_if_past);
 }
-# 489 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 489 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline alarm_id_t alarm_pool_add_alarm_in_ms(alarm_pool_t *pool, uint32_t ms, alarm_callback_t callback, void *user_data, 
-# 489 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 489 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
                                                                                                                                 _Bool 
-# 489 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 489 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                                                                                                                                      fire_if_past) {
     return alarm_pool_add_alarm_at(pool, delayed_by_ms(get_absolute_time(), ms), callback, user_data, fire_if_past);
 }
-# 501 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 501 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 
-# 501 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 501 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
 _Bool 
-# 501 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 501 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
     alarm_pool_cancel_alarm(alarm_pool_t *pool, alarm_id_t alarm_id);
-# 526 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 526 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline alarm_id_t add_alarm_at(absolute_time_t time, alarm_callback_t callback, void *user_data, 
-# 526 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 526 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
                                                                                                        _Bool 
-# 526 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 526 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                                                                                                             fire_if_past) {
     return alarm_pool_add_alarm_at(alarm_pool_get_default(), time, callback, user_data, fire_if_past);
 }
-# 552 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 552 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline alarm_id_t add_alarm_in_us(uint64_t us, alarm_callback_t callback, void *user_data, 
-# 552 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 552 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
                                                                                                  _Bool 
-# 552 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 552 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                                                                                                       fire_if_past) {
     return alarm_pool_add_alarm_in_us(alarm_pool_get_default(), us, callback, user_data, fire_if_past);
 }
-# 578 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 578 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline alarm_id_t add_alarm_in_ms(uint32_t ms, alarm_callback_t callback, void *user_data, 
-# 578 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 578 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
                                                                                                  _Bool 
-# 578 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 578 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                                                                                                       fire_if_past) {
     return alarm_pool_add_alarm_in_ms(alarm_pool_get_default(), ms, callback, user_data, fire_if_past);
 }
@@ -937,13 +937,13 @@ static inline alarm_id_t add_alarm_in_ms(uint32_t ms, alarm_callback_t callback,
 
 
 static inline 
-# 588 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 588 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
              _Bool 
-# 588 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 588 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                   cancel_alarm(alarm_id_t alarm_id) {
     return alarm_pool_cancel_alarm(alarm_pool_get_default(), alarm_id);
 }
-# 604 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 604 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 typedef struct repeating_timer repeating_timer_t;
 
 
@@ -953,9 +953,9 @@ typedef struct repeating_timer repeating_timer_t;
 
 
 typedef 
-# 612 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 612 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
        _Bool 
-# 612 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 612 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
             (*repeating_timer_callback_t)(repeating_timer_t *rt);
 
 
@@ -970,48 +970,48 @@ struct repeating_timer {
     repeating_timer_callback_t callback;
     void *user_data;
 };
-# 645 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 645 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 
-# 645 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 645 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
 _Bool 
-# 645 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 645 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
     alarm_pool_add_repeating_timer_us(alarm_pool_t *pool, int64_t delay_us, repeating_timer_callback_t callback, void *user_data, repeating_timer_t *out);
-# 665 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 665 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline 
-# 665 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 665 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
              _Bool 
-# 665 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 665 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                   alarm_pool_add_repeating_timer_ms(alarm_pool_t *pool, int32_t delay_ms, repeating_timer_callback_t callback, void *user_data, repeating_timer_t *out) {
     return alarm_pool_add_repeating_timer_us(pool, delay_ms * (int64_t)1000, callback, user_data, out);
 }
-# 687 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 687 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline 
-# 687 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 687 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
              _Bool 
-# 687 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 687 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                   add_repeating_timer_us(int64_t delay_us, repeating_timer_callback_t callback, void *user_data, repeating_timer_t *out) {
     return alarm_pool_add_repeating_timer_us(alarm_pool_get_default(), delay_us, callback, user_data, out);
 }
-# 708 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 708 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 static inline 
-# 708 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 708 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
              _Bool 
-# 708 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 708 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
                   add_repeating_timer_ms(int32_t delay_ms, repeating_timer_callback_t callback, void *user_data, repeating_timer_t *out) {
     return alarm_pool_add_repeating_timer_us(alarm_pool_get_default(), delay_ms * (int64_t)1000, callback, user_data, out);
 }
-# 720 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 720 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
 
-# 720 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
+# 720 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h" 3 4
 _Bool 
-# 720 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
+# 720 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_time/include/pico/time.h"
     cancel_repeating_timer(repeating_timer_t *timer);
-# 12 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h" 1
-# 13 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h" 1
-# 14 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h" 2
-# 23 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h"
+# 12 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h" 1
+# 13 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h" 1
+# 14 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h" 2
+# 23 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h"
 typedef struct {
    
 
@@ -1085,12 +1085,12 @@ typedef struct {
 
     io_rw_32 dmacr;
 } spi_hw_t;
-# 13 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h" 1
-# 14 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 2
-# 48 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 13 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h" 1
+# 14 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 2
+# 48 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 typedef struct spi_inst spi_inst_t;
-# 77 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 77 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 typedef enum {
     SPI_CPHA_0 = 0,
     SPI_CPHA_1 = 1
@@ -1111,13 +1111,13 @@ typedef enum {
     SPI_LSB_FIRST = 0,
     SPI_MSB_FIRST = 1
 } spi_order_t;
-# 113 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 113 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 uint spi_init(spi_inst_t *spi, uint baudrate);
-# 122 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 122 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 void spi_deinit(spi_inst_t *spi);
-# 134 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 134 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 uint spi_set_baudrate(spi_inst_t *spi, uint baudrate);
-# 144 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 144 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 uint spi_get_baudrate(const spi_inst_t *spi);
 
 
@@ -1128,17 +1128,17 @@ uint spi_get_baudrate(const spi_inst_t *spi);
 
 static inline uint spi_get_index(const spi_inst_t *spi) {
     ({if (((0 || 0) && !0)) 
-# 153 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 153 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    ((
-# 153 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 153 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    !(spi != ((spi_inst_t *)((spi_hw_t *)0x4003c000u)) && spi != ((spi_inst_t *)((spi_hw_t *)0x40040000u)))
-# 153 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
-   ) ? (void)0 : __assert_func ("/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h", 153, __func__, 
-# 153 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 153 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+   ) ? (void)0 : __assert_func ("/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h", 153, __func__, 
+# 153 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    "!(spi != ((spi_inst_t *)((spi_hw_t *)0x4003c000u)) && spi != ((spi_inst_t *)((spi_hw_t *)0x40040000u)))"
-# 153 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 153 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    ))
-# 153 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 153 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    ;});
     return spi == ((spi_inst_t *)((spi_hw_t *)0x40040000u)) ? 1 : 0;
 }
@@ -1152,64 +1152,64 @@ static inline const spi_hw_t *spi_get_const_hw(const spi_inst_t *spi) {
     spi_get_index(spi);
     return (const spi_hw_t *)spi;
 }
-# 178 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 178 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 static inline void spi_set_format(spi_inst_t *spi, uint data_bits, spi_cpol_t cpol, spi_cpha_t cpha, 
-# 178 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 178 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
                                                                                                     __attribute__((__unused__)) 
-# 178 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 178 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
                                                                                                              spi_order_t order) {
     ({if (((0 || 0) && !0)) 
-# 179 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 179 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    ((
-# 179 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 179 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    !(data_bits < 4 || data_bits > 16)
-# 179 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
-   ) ? (void)0 : __assert_func ("/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h", 179, __func__, 
-# 179 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 179 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+   ) ? (void)0 : __assert_func ("/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h", 179, __func__, 
+# 179 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    "!(data_bits < 4 || data_bits > 16)"
-# 179 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 179 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    ))
-# 179 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 179 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    ;});
 
     ({if (((0 || 0) && !0)) 
-# 181 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 181 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    ((
-# 181 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 181 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    !(order != SPI_MSB_FIRST)
-# 181 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
-   ) ? (void)0 : __assert_func ("/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h", 181, __func__, 
-# 181 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 181 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+   ) ? (void)0 : __assert_func ("/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h", 181, __func__, 
+# 181 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    "!(order != SPI_MSB_FIRST)"
-# 181 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 181 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    ))
-# 181 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 181 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    ;});
     ({if (((0 || 0) && !0)) 
-# 182 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 182 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    ((
-# 182 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 182 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    !(cpol != SPI_CPOL_0 && cpol != SPI_CPOL_1)
-# 182 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
-   ) ? (void)0 : __assert_func ("/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h", 182, __func__, 
-# 182 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 182 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+   ) ? (void)0 : __assert_func ("/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h", 182, __func__, 
+# 182 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    "!(cpol != SPI_CPOL_0 && cpol != SPI_CPOL_1)"
-# 182 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 182 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    ))
-# 182 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 182 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    ;});
     ({if (((0 || 0) && !0)) 
-# 183 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 183 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    ((
-# 183 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 183 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    !(cpha != SPI_CPHA_0 && cpha != SPI_CPHA_1)
-# 183 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
-   ) ? (void)0 : __assert_func ("/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h", 183, __func__, 
-# 183 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 183 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+   ) ? (void)0 : __assert_func ("/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h", 183, __func__, 
+# 183 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    "!(cpha != SPI_CPHA_0 && cpha != SPI_CPHA_1)"
-# 183 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 183 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    ))
-# 183 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 183 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
    ;});
     hw_write_masked(&spi_get_hw(spi)->cr0,
                     ((uint)(data_bits - 1)) << 0u |
@@ -1219,22 +1219,22 @@ static inline void spi_set_format(spi_inst_t *spi, uint data_bits, spi_cpol_t cp
         0x00000040u |
         0x00000080u);
 }
-# 202 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 202 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 static inline void spi_set_slave(spi_inst_t *spi, 
-# 202 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3 4
+# 202 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3 4
                                                  _Bool 
-# 202 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 202 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
                                                       slave) {
     if (slave)
         hw_set_bits(&spi_get_hw(spi)->cr1, 0x00000004u);
     else
         hw_clear_bits(&spi_get_hw(spi)->cr1, 0x00000004u);
 }
-# 218 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 218 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 static inline 
-# 218 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3 4
+# 218 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3 4
              _Bool 
-# 218 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 218 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
                   spi_is_writable(const spi_inst_t *spi) {
     return (spi_get_const_hw(spi)->sr & 0x00000002u);
 }
@@ -1246,9 +1246,9 @@ static inline
 
 
 static inline 
-# 228 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3 4
+# 228 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3 4
              _Bool 
-# 228 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 228 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
                   spi_is_readable(const spi_inst_t *spi) {
     return (spi_get_const_hw(spi)->sr & 0x00000004u);
 }
@@ -1260,23 +1260,23 @@ static inline
 
 
 static inline 
-# 238 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3 4
+# 238 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3 4
              _Bool 
-# 238 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 238 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
                   spi_is_busy(const spi_inst_t *spi) {
     return (spi_get_const_hw(spi)->sr & 0x00000010u);
 }
-# 254 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 254 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 int spi_write_read_blocking(spi_inst_t *spi, const uint8_t *src, uint8_t *dst, size_t len);
-# 267 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 267 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 int spi_write_blocking(spi_inst_t *spi, const uint8_t *src, size_t len);
-# 284 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 284 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 int spi_read_blocking(spi_inst_t *spi, uint8_t repeated_tx_data, uint8_t *dst, size_t len);
-# 305 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 305 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 int spi_write16_read16_blocking(spi_inst_t *spi, const uint16_t *src, uint16_t *dst, size_t len);
-# 320 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 320 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 int spi_write16_blocking(spi_inst_t *spi, const uint16_t *src, size_t len);
-# 339 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 339 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
 int spi_read16_blocking(spi_inst_t *spi, uint16_t repeated_tx_data, uint16_t *dst, size_t len);
 
 
@@ -1286,36 +1286,36 @@ int spi_read16_blocking(spi_inst_t *spi, uint16_t repeated_tx_data, uint16_t *ds
 
 
 static inline uint spi_get_dreq(spi_inst_t *spi, 
-# 347 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3 4
+# 347 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3 4
                                                 _Bool 
-# 347 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 347 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
                                                      is_tx) {
     
-# 348 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 348 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    _Static_assert
-# 348 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 348 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
                 (0x11 == 0x10 + 1, "");
     
-# 349 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 349 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    _Static_assert
-# 349 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 349 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
                 (0x13 == 0x12 + 1, "");
     
-# 350 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
+# 350 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h" 3
    _Static_assert
-# 350 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
+# 350 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h"
                 (0x12 == 0x10 + 2, "");
     return 0x10 + spi_get_index(spi) * 2 + !is_tx;
 }
-# 31 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 1
-# 56 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 31 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 1
+# 56 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 typedef volatile uint32_t spin_lock_t;
-# 112 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 112 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 
-# 112 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 112 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 112 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 112 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void __sev(void) {
     __asm volatile ("sev");
 }
@@ -1327,9 +1327,9 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 122 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 122 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 122 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 122 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void __wfe(void) {
     __asm volatile ("wfe");
 }
@@ -1340,9 +1340,9 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 131 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 131 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 131 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 131 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void __wfi(void) {
     __asm volatile ("wfi");
 }
@@ -1354,25 +1354,25 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 141 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 141 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 141 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 141 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void __dmb(void) {
     __asm volatile ("dmb" : : : "memory");
 }
-# 152 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 152 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 
-# 152 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 152 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 152 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 152 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void __dsb(void) {
     __asm volatile ("dsb" : : : "memory");
 }
-# 163 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 163 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 
-# 163 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 163 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 163 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 163 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void __isb(void) {
     __asm volatile ("isb");
 }
@@ -1381,9 +1381,9 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 170 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 170 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 170 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 170 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void __mem_fence_acquire(void) {
 
 
@@ -1401,9 +1401,9 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 186 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 186 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 186 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 186 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void __mem_fence_release(void) {
 
 
@@ -1422,9 +1422,9 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 203 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 203 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 203 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 203 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static uint32_t save_and_disable_interrupts(void) {
     uint32_t status;
     __asm volatile ("mrs %0, PRIMASK" : "=r" (status)::);
@@ -1438,9 +1438,9 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 215 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 215 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 215 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 215 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void restore_interrupts(uint32_t status) {
     __asm volatile ("msr PRIMASK,%0"::"r" (status) : );
 }
@@ -1452,22 +1452,22 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 225 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 225 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 225 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 225 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static spin_lock_t *spin_lock_instance(uint lock_num) {
     ({if (((0 || 0) && !0)) 
-# 226 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 226 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
    ((
-# 226 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 226 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
    !(lock_num >= 32u)
-# 226 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
-   ) ? (void)0 : __assert_func ("/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h", 226, __func__, 
-# 226 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 226 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+   ) ? (void)0 : __assert_func ("/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h", 226, __func__, 
+# 226 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
    "!(lock_num >= 32u)"
-# 226 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 226 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
    ))
-# 226 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 226 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
    ;});
     return (spin_lock_t *) (0xd0000000u + 0x00000100u + lock_num * 4);
 }
@@ -1479,22 +1479,22 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 236 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 236 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 236 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 236 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static uint spin_lock_get_num(spin_lock_t *lock) {
     ({if (((0 || 0) && !0)) 
-# 237 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 237 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
    ((
-# 237 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 237 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
    !((uint) lock < 0xd0000000u + 0x00000100u || (uint) lock >= 32u * sizeof(spin_lock_t) + 0xd0000000u + 0x00000100u || ((uint) lock - 0xd0000000u + 0x00000100u) % sizeof(spin_lock_t) != 0)
-# 237 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
-   ) ? (void)0 : __assert_func ("/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h", 237, __func__, 
-# 237 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 237 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+   ) ? (void)0 : __assert_func ("/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h", 237, __func__, 
+# 237 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
    "!((uint) lock < 0xd0000000u + 0x00000100u || (uint) lock >= 32u * sizeof(spin_lock_t) + 0xd0000000u + 0x00000100u || ((uint) lock - 0xd0000000u + 0x00000100u) % sizeof(spin_lock_t) != 0)"
-# 237 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 237 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
    ))
-# 237 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 237 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
    ;})
 
                                                                                                        ;
@@ -1507,9 +1507,9 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 248 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 248 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 248 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 248 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void spin_lock_unsafe_blocking(spin_lock_t *lock) {
 
 
@@ -1524,18 +1524,18 @@ __inline__ __attribute__((__always_inline__))
 
 
 
-# 261 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 261 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 261 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 261 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void spin_unlock_unsafe(spin_lock_t *lock) {
     __mem_fence_release();
     *lock = 0;
 }
-# 274 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 274 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 
-# 274 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 274 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 274 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 274 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static uint32_t spin_lock_blocking(spin_lock_t *lock) {
     uint32_t save = save_and_disable_interrupts();
     spin_lock_unsafe_blocking(lock);
@@ -1548,41 +1548,41 @@ __inline__ __attribute__((__always_inline__))
 
 
 inline static 
-# 285 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3 4
+# 285 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3 4
              _Bool 
-# 285 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 285 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
                   is_spin_locked(spin_lock_t *lock) {
     
-# 286 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 286 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
    _Static_assert
-# 286 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 286 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
    (sizeof(spin_lock_t) == (4), "hw size mismatch");
     uint lock_num = spin_lock_get_num(lock);
     return 0 != (*(io_ro_32 *) (0xd0000000u + 0x0000005cu) & (1u << lock_num));
 }
-# 302 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 302 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 
-# 302 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
+# 302 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3
 __inline__ __attribute__((__always_inline__)) 
-# 302 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 302 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
               static void spin_unlock(spin_lock_t *lock, uint32_t saved_irq) {
     spin_unlock_unsafe(lock);
     restore_interrupts(saved_irq);
 }
-# 315 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 315 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 spin_lock_t *spin_lock_init(uint lock_num);
 
 
 
 
 void spin_locks_reset(void);
-# 337 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 337 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 uint next_striped_spin_lock_num(void);
-# 348 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 348 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 void spin_lock_claim(uint lock_num);
-# 359 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 359 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 void spin_lock_claim_mask(uint32_t lock_num_mask);
-# 368 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 368 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 void spin_lock_unclaim(uint lock_num);
 
 
@@ -1592,47 +1592,47 @@ void spin_lock_unclaim(uint lock_num);
 
 
 int spin_lock_claim_unused(
-# 376 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3 4
+# 376 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3 4
                           _Bool 
-# 376 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 376 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
                                required);
-# 386 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 386 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
 
-# 386 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3 4
+# 386 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h" 3 4
 _Bool 
-# 386 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
+# 386 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h"
     spin_lock_is_claimed(uint lock_num);
-# 32 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h" 1
-# 23 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h" 1
-# 24 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 1
-# 24 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 32 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h" 1
+# 23 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h" 1
+# 24 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 1
+# 24 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
 typedef struct _binary_info_core binary_info_t;
-# 64 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 64 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
 typedef struct 
-# 64 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
+# 64 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
               __attribute__((__packed__)) 
-# 64 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 64 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
                        _binary_info_core {
         uint16_t type;
         uint16_t tag;
 } binary_info_core_t;
 
 typedef struct 
-# 69 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
+# 69 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
               __attribute__((__packed__)) 
-# 69 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 69 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
                        _binary_info_raw_data {
         struct _binary_info_core core;
         uint8_t bytes[1];
 } binary_info_raw_data_t;
 
 typedef struct 
-# 74 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
+# 74 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
               __attribute__((__packed__)) 
-# 74 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 74 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
                        _binary_info_sized_data {
         struct _binary_info_core core;
         uint32_t length;
@@ -1640,18 +1640,18 @@ typedef struct
 } binary_info_sized_data_t;
 
 typedef struct 
-# 80 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
+# 80 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
               __attribute__((__packed__)) 
-# 80 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 80 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
                        _binary_info_list_zero_terminated {
         struct _binary_info_core core;
         binary_info_t * list;
 } binary_info_list_zero_terminated_t;
 
 typedef struct 
-# 85 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
+# 85 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
               __attribute__((__packed__)) 
-# 85 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 85 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
                        _binary_info_id_and_int {
         struct _binary_info_core core;
         uint32_t id;
@@ -1659,9 +1659,9 @@ typedef struct
 } binary_info_id_and_int_t;
 
 typedef struct 
-# 91 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
+# 91 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
               __attribute__((__packed__)) 
-# 91 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 91 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
                        _binary_info_id_and_string {
         struct _binary_info_core core;
         uint32_t id;
@@ -1669,9 +1669,9 @@ typedef struct
 } binary_info_id_and_string_t;
 
 typedef struct 
-# 97 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
+# 97 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
               __attribute__((__packed__)) 
-# 97 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 97 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
                        _binary_info_block_device {
         struct _binary_info_core core;
         const char * name;
@@ -1685,9 +1685,9 @@ typedef struct
 
 
 typedef struct 
-# 109 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
+# 109 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
               __attribute__((__packed__)) 
-# 109 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 109 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
                        _binary_info_pins_with_func {
     struct _binary_info_core core;
 
@@ -1696,9 +1696,9 @@ typedef struct
 } binary_info_pins_with_func_t;
 
 typedef struct 
-# 116 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
+# 116 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
               __attribute__((__packed__)) 
-# 116 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 116 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
                        _binary_info_pins_with_name {
     struct _binary_info_core core;
     uint32_t pin_mask;
@@ -1711,9 +1711,9 @@ typedef struct
 
 
 typedef struct 
-# 127 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
+# 127 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h" 3
               __attribute__((__packed__)) 
-# 127 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
+# 127 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h"
                        _binary_info_named_group {
     struct _binary_info_core core;
     uint32_t parent_id;
@@ -1734,21 +1734,21 @@ enum {
     BINARY_INFO_BLOCK_DEV_FLAG_PT_GPT = 2 << 4,
     BINARY_INFO_BLOCK_DEV_FLAG_PT_NONE = 3 << 4,
 };
-# 25 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h" 2
+# 25 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h" 2
 
 
 
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h" 1
-# 29 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h" 2
-# 33 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 1
-# 11 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sync.h" 1
-# 15 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sync.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 1
-# 10 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/lock_core.h" 1
-# 53 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/lock_core.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h" 1
+# 29 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h" 2
+# 33 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 1
+# 11 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sync.h" 1
+# 15 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sync.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 1
+# 10 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/lock_core.h" 1
+# 53 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/lock_core.h"
 struct lock_core {
 
     spin_lock_t *spin_lock;
@@ -1758,24 +1758,24 @@ struct lock_core {
 };
 
 typedef struct lock_core lock_core_t;
-# 72 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/lock_core.h"
+# 72 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/lock_core.h"
 void lock_init(lock_core_t *core, uint lock_num);
-# 11 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 2
-# 31 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 11 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 2
+# 31 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
 typedef struct 
-# 31 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3
+# 31 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3
               __attribute__((__packed__)) __attribute__((__aligned__(
-# 31 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 31 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
               4
-# 31 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3
+# 31 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3
               ))) 
-# 31 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 31 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
                                semaphore {
     struct lock_core core;
     int16_t permits;
     int16_t max_permits;
 } semaphore_t;
-# 45 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 45 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
 void sem_init(semaphore_t *sem, int16_t initial_permits, int16_t max_permits);
 
 
@@ -1785,51 +1785,51 @@ void sem_init(semaphore_t *sem, int16_t initial_permits, int16_t max_permits);
 
 
 int sem_available(semaphore_t *sem);
-# 64 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 64 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
 
-# 64 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3 4
+# 64 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3 4
 _Bool 
-# 64 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 64 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
     sem_release(semaphore_t *sem);
-# 74 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 74 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
 void sem_reset(semaphore_t *sem, int16_t permits);
-# 83 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 83 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
 void sem_acquire_blocking(semaphore_t *sem);
-# 96 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 96 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
 
-# 96 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3 4
+# 96 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3 4
 _Bool 
-# 96 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 96 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
     sem_acquire_timeout_ms(semaphore_t *sem, uint32_t timeout_ms);
-# 109 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 109 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
 
-# 109 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3 4
+# 109 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3 4
 _Bool 
-# 109 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 109 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
     sem_acquire_timeout_us(semaphore_t *sem, uint32_t timeout_us);
-# 123 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 123 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
 
-# 123 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3 4
+# 123 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3 4
 _Bool 
-# 123 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 123 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
     sem_acquire_block_until(semaphore_t *sem, absolute_time_t until);
-# 134 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 134 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
 
-# 134 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3 4
+# 134 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h" 3 4
 _Bool 
-# 134 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
+# 134 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sem.h"
     sem_try_acquire(semaphore_t *sem);
-# 16 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sync.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 1
-# 47 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 16 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sync.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 1
+# 47 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 typedef struct 
-# 47 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3
+# 47 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3
               __attribute__((__packed__)) __attribute__((__aligned__(
-# 47 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 47 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
               4
-# 47 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3
+# 47 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3
               ))) 
-# 47 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 47 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
                                 {
     lock_core_t core;
     int8_t owner;
@@ -1844,72 +1844,72 @@ typedef struct
 
 
 typedef struct 
-# 60 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3
+# 60 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3
               __attribute__((__packed__)) __attribute__((__aligned__(
-# 60 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 60 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
               4
-# 60 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3
+# 60 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3
               ))) 
-# 60 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 60 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
                                mutex {
     lock_core_t core;
     int8_t owner;
 } mutex_t;
-# 73 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 73 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 void mutex_init(mutex_t *mtx);
-# 82 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 82 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 void recursive_mutex_init(recursive_mutex_t *mtx);
-# 92 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 92 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 void mutex_enter_blocking(mutex_t *mtx);
-# 102 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 102 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 void recursive_mutex_enter_blocking(recursive_mutex_t *mtx);
-# 115 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 115 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 
-# 115 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
+# 115 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
 _Bool 
-# 115 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 115 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
     mutex_try_enter(mutex_t *mtx, uint32_t *owner_out);
-# 129 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 129 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 
-# 129 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
+# 129 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
 _Bool 
-# 129 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 129 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
     recursive_mutex_try_enter(recursive_mutex_t *mtx, uint32_t *owner_out);
-# 142 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 142 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 
-# 142 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
+# 142 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
 _Bool 
-# 142 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 142 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
     mutex_enter_timeout_ms(mutex_t *mtx, uint32_t timeout_ms);
-# 156 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 156 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 
-# 156 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
+# 156 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
 _Bool 
-# 156 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 156 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
     recursive_mutex_enter_timeout_ms(recursive_mutex_t *mtx, uint32_t timeout_ms);
-# 170 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 170 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 
-# 170 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
+# 170 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
 _Bool 
-# 170 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 170 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
     mutex_enter_timeout_us(mutex_t *mtx, uint32_t timeout_us);
-# 184 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 184 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 
-# 184 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
+# 184 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
 _Bool 
-# 184 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 184 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
     recursive_mutex_enter_timeout_us(recursive_mutex_t *mtx, uint32_t timeout_us);
-# 198 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 198 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 
-# 198 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
+# 198 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
 _Bool 
-# 198 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 198 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
     mutex_enter_block_until(mutex_t *mtx, absolute_time_t until);
-# 212 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 212 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
 
-# 212 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
+# 212 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
 _Bool 
-# 212 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 212 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
     recursive_mutex_enter_block_until(recursive_mutex_t *mtx, absolute_time_t until);
 
 
@@ -1933,9 +1933,9 @@ void recursive_mutex_exit(recursive_mutex_t *mtx);
 
 
 static inline 
-# 234 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
+# 234 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
              _Bool 
-# 234 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 234 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
                   mutex_is_initialized(mutex_t *mtx) {
     return mtx->core.spin_lock != 0;
 }
@@ -1947,28 +1947,28 @@ static inline
 
 
 static inline 
-# 244 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
+# 244 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h" 3 4
              _Bool 
-# 244 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
+# 244 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/mutex.h"
                   recursive_mutex_is_initialized(recursive_mutex_t *mtx) {
     return mtx->core.spin_lock != 0;
 }
-# 17 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sync.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h" 1
-# 29 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
+# 17 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sync.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h" 1
+# 29 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
 typedef struct 
-# 29 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h" 3
+# 29 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h" 3
               __attribute__((__packed__)) __attribute__((__aligned__(
-# 29 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
+# 29 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
               4
-# 29 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h" 3
+# 29 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h" 3
               ))) 
-# 29 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
+# 29 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
                                critical_section {
     spin_lock_t *spin_lock;
     uint32_t save;
 } critical_section_t;
-# 44 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
+# 44 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
 void critical_section_init(critical_section_t *crit_sec);
 
 
@@ -1977,7 +1977,7 @@ void critical_section_init(critical_section_t *crit_sec);
 
 
 void critical_section_init_with_lock_num(critical_section_t *crit_sec, uint lock_num);
-# 61 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
+# 61 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
 static inline void critical_section_enter_blocking(critical_section_t *crit_sec) {
     crit_sec->save = spin_lock_blocking(crit_sec->spin_lock);
 }
@@ -1990,14 +1990,14 @@ static inline void critical_section_enter_blocking(critical_section_t *crit_sec)
 static inline void critical_section_exit(critical_section_t *crit_sec) {
     spin_unlock(crit_sec->spin_lock, crit_sec->save);
 }
-# 83 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
+# 83 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/critical_section.h"
 void critical_section_deinit(critical_section_t *crit_sec);
-# 18 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sync.h" 2
-# 12 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h" 1
-# 14 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h"
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h" 1
-# 23 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h"
+# 18 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/common/pico_sync/include/pico/sync.h" 2
+# 12 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h" 1
+# 14 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h"
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h" 1
+# 23 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h"
 typedef struct {
    
 
@@ -2024,7 +2024,7 @@ typedef struct {
     io_ro_32 peek[3];
 
    
-# 64 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h"
+# 64 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h"
     io_rw_32 ctrl[2];
 
    
@@ -2038,8 +2038,8 @@ typedef struct {
 
     io_wo_32 base01;
 } interp_hw_t;
-# 15 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h" 2
-# 24 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h"
+# 15 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h" 2
+# 24 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h"
 typedef struct {
    
 
@@ -2189,46 +2189,46 @@ typedef struct {
     uint32_t _pad1;
     interp_hw_t interp[2];
 } sio_hw_t;
-# 13 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 2
-# 43 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 13 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 2
+# 43 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 void multicore_reset_core1(void);
-# 57 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 57 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 void multicore_launch_core1(void (*entry)(void));
-# 73 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 73 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 void multicore_launch_core1_with_stack(void (*entry)(void), uint32_t *stack_bottom, size_t stack_size_bytes);
-# 90 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 90 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 void multicore_launch_core1_raw(void (*entry)(void), uint32_t *sp, uint32_t vector_table);
-# 115 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 115 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 static inline 
-# 115 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
+# 115 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
              _Bool 
-# 115 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 115 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
                   multicore_fifo_rvalid(void) {
     return !!(((sio_hw_t *)0xd0000000u)->fifo_st & 0x00000001u);
 }
-# 126 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 126 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 static inline 
-# 126 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
+# 126 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
              _Bool 
-# 126 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 126 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
                   multicore_fifo_wready(void) {
     return !!(((sio_hw_t *)0xd0000000u)->fifo_st & 0x00000002u);
 }
-# 141 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 141 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 void multicore_fifo_push_blocking(uint32_t data);
-# 153 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 153 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 
-# 153 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
+# 153 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
 _Bool 
-# 153 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 153 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
     multicore_fifo_push_timeout_us(uint32_t data, uint64_t timeout_us);
-# 166 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 166 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 uint32_t multicore_fifo_pop_blocking(void);
-# 179 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 179 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 
-# 179 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
+# 179 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
 _Bool 
-# 179 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 179 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
     multicore_fifo_pop_timeout_us(uint64_t timeout_us, uint32_t *out);
 
 
@@ -2240,24 +2240,24 @@ static inline void multicore_fifo_drain(void) {
     while (multicore_fifo_rvalid())
         (void) ((sio_hw_t *)0xd0000000u)->fifo_rd;
 }
-# 201 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 201 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 static inline void multicore_fifo_clear_irq(void) {
 
     ((sio_hw_t *)0xd0000000u)->fifo_st = 0xff;
 }
-# 221 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 221 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 static inline uint32_t multicore_fifo_get_status(void) {
     return ((sio_hw_t *)0xd0000000u)->fifo_st;
 }
-# 258 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 258 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 void multicore_lockout_victim_init(void);
-# 268 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 268 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 void multicore_lockout_start_blocking(void);
-# 281 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 281 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 
-# 281 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
+# 281 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
 _Bool 
-# 281 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 281 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
     multicore_lockout_start_timeout_us(uint64_t timeout_us);
 
 
@@ -2267,44 +2267,44 @@ _Bool
 
 
 void multicore_lockout_end_blocking(void);
-# 305 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 305 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
 
-# 305 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
+# 305 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h" 3 4
 _Bool 
-# 305 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
+# 305 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/lib/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h"
     multicore_lockout_end_timeout_us(uint64_t timeout_us);
-# 34 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
-# 1 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/boards/PICO/mpconfigboard.h" 1
-# 35 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
-# 202 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h"
+# 34 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
+# 1 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/boards/PICO/mpconfigboard.h" 1
+# 35 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
+# 202 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h"
 extern uint32_t mp_thread_begin_atomic_section(void);
 extern void mp_thread_end_atomic_section(uint32_t);
-# 242 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h"
+# 242 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h"
 typedef intptr_t mp_int_t;
 typedef uintptr_t mp_uint_t;
 typedef intptr_t mp_off_t;
 
 
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/alloca.h" 1 3
-# 11 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/alloca.h" 3
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 1 3
-# 13 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 3
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/_ansi.h" 1 3
-# 14 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 2 3
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 1 3 4
-# 15 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 2 3
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.h" 1 3
-# 24 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.h" 3
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 1 3 4
-# 350 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 3 4
+# 1 "/opt/local/arm-none-eabi/include/alloca.h" 1 3
+# 11 "/opt/local/arm-none-eabi/include/alloca.h" 3
+# 1 "/opt/local/arm-none-eabi/include/sys/reent.h" 1 3
+# 13 "/opt/local/arm-none-eabi/include/sys/reent.h" 3
+# 1 "/opt/local/arm-none-eabi/include/_ansi.h" 1 3
+# 14 "/opt/local/arm-none-eabi/include/sys/reent.h" 2 3
+# 1 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 1 3 4
+# 15 "/opt/local/arm-none-eabi/include/sys/reent.h" 2 3
+# 1 "/opt/local/arm-none-eabi/include/sys/_types.h" 1 3
+# 24 "/opt/local/arm-none-eabi/include/sys/_types.h" 3
+# 1 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 1 3 4
+# 359 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 3 4
 
-# 350 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h" 3 4
+# 359 "/opt/local/lib/gcc/arm-none-eabi/12.1.0/include/stddef.h" 3 4
 typedef unsigned int wint_t;
-# 25 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.h" 2 3
+# 25 "/opt/local/arm-none-eabi/include/sys/_types.h" 2 3
 
 
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_types.h" 1 3
-# 28 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.h" 2 3
+# 1 "/opt/local/arm-none-eabi/include/machine/_types.h" 1 3
+# 28 "/opt/local/arm-none-eabi/include/sys/_types.h" 2 3
 
 
 typedef long __blkcnt_t;
@@ -2353,7 +2353,7 @@ typedef __uint32_t __id_t;
 
 
 typedef unsigned short __ino_t;
-# 90 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.h" 3
+# 90 "/opt/local/arm-none-eabi/include/sys/_types.h" 3
 typedef __uint32_t __mode_t;
 
 
@@ -2381,11 +2381,11 @@ typedef long __key_t;
 
 
 typedef long _fpos_t;
-# 131 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.h" 3
+# 131 "/opt/local/arm-none-eabi/include/sys/_types.h" 3
 typedef unsigned int __size_t;
-# 147 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.h" 3
+# 147 "/opt/local/arm-none-eabi/include/sys/_types.h" 3
 typedef signed int _ssize_t;
-# 158 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.h" 3
+# 158 "/opt/local/arm-none-eabi/include/sys/_types.h" 3
 typedef _ssize_t __ssize_t;
 
 
@@ -2448,7 +2448,7 @@ typedef unsigned long __useconds_t;
 
 
 typedef __builtin_va_list __va_list;
-# 16 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 2 3
+# 16 "/opt/local/arm-none-eabi/include/sys/reent.h" 2 3
 
 
 
@@ -2456,39 +2456,13 @@ typedef __builtin_va_list __va_list;
 
 
 typedef unsigned long __ULong;
-# 34 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 3
-# 1 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/lock.h" 1 3
-# 33 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/lock.h" 3
-struct __lock;
-typedef struct __lock * _LOCK_T;
-
-
-
-
-
-
-extern void __retarget_lock_init(_LOCK_T *lock);
-
-extern void __retarget_lock_init_recursive(_LOCK_T *lock);
-
-extern void __retarget_lock_close(_LOCK_T lock);
-
-extern void __retarget_lock_close_recursive(_LOCK_T lock);
-
-extern void __retarget_lock_acquire(_LOCK_T lock);
-
-extern void __retarget_lock_acquire_recursive(_LOCK_T lock);
-
-extern int __retarget_lock_try_acquire(_LOCK_T lock);
-
-extern int __retarget_lock_try_acquire_recursive(_LOCK_T lock);
-
-
-extern void __retarget_lock_release(_LOCK_T lock);
-
-extern void __retarget_lock_release_recursive(_LOCK_T lock);
-# 35 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 2 3
-typedef _LOCK_T _flock_t;
+# 34 "/opt/local/arm-none-eabi/include/sys/reent.h" 3
+# 1 "/opt/local/arm-none-eabi/include/sys/lock.h" 1 3
+# 11 "/opt/local/arm-none-eabi/include/sys/lock.h" 3
+typedef int _LOCK_T;
+typedef int _LOCK_RECURSIVE_T;
+# 35 "/opt/local/arm-none-eabi/include/sys/reent.h" 2 3
+typedef _LOCK_RECURSIVE_T _flock_t;
 
 
 
@@ -2541,7 +2515,7 @@ struct _on_exit_args {
 
  __ULong _is_cxa;
 };
-# 98 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 3
+# 98 "/opt/local/arm-none-eabi/include/sys/reent.h" 3
 struct _atexit {
  struct _atexit *_next;
  int _ind;
@@ -2549,12 +2523,12 @@ struct _atexit {
  void (*_fns[32])(void);
         struct _on_exit_args _on_exit_args;
 };
-# 122 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 3
+# 122 "/opt/local/arm-none-eabi/include/sys/reent.h" 3
 struct __sbuf {
  unsigned char *_base;
  int _size;
 };
-# 186 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 3
+# 186 "/opt/local/arm-none-eabi/include/sys/reent.h" 3
 struct __sFILE {
   unsigned char *_p;
   int _r;
@@ -2605,7 +2579,7 @@ struct __sFILE {
   _mbstate_t _mbstate;
   int _flags2;
 };
-# 292 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 3
+# 292 "/opt/local/arm-none-eabi/include/sys/reent.h" 3
 typedef struct __sFILE __FILE;
 
 
@@ -2616,7 +2590,7 @@ struct _glue
   int _niobs;
   __FILE *_iobs;
 };
-# 324 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 3
+# 324 "/opt/local/arm-none-eabi/include/sys/reent.h" 3
 struct _rand48 {
   unsigned short _seed[3];
   unsigned short _mult[3];
@@ -2626,7 +2600,7 @@ struct _rand48 {
 
 
 };
-# 613 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 3
+# 613 "/opt/local/arm-none-eabi/include/sys/reent.h" 3
 struct _reent
 {
   int _errno;
@@ -2709,20 +2683,20 @@ struct _reent
   __FILE __sf[3];
 
 };
-# 819 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h" 3
+# 819 "/opt/local/arm-none-eabi/include/sys/reent.h" 3
 extern struct _reent *_impure_ptr ;
 extern struct _reent *const _global_impure_ptr ;
 
 void _reclaim_reent (struct _reent *);
-# 12 "/usr/local/Caskroom/gcc-arm-embedded/9-2020-q2-update/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/alloca.h" 2 3
-# 248 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
+# 12 "/opt/local/arm-none-eabi/include/alloca.h" 2 3
+# 248 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h" 2
 
 
 
 
 
 
-# 253 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h"
+# 253 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/mpconfigport.h"
 extern uint32_t rosc_random_u32(void);
 extern void lwip_lock_acquire(void);
 extern void lwip_lock_release(void);
@@ -2730,8 +2704,8 @@ extern void lwip_lock_release(void);
 extern uint32_t cyw43_country_code;
 extern void cyw43_irq_init(void);
 extern void cyw43_post_poll_hook(void);
-# 76 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/py/mpconfig.h" 2
-# 788 "/Users/developer/Documents/pico-micropython-debug-template/pico/micropython/py/mpconfig.h"
+# 76 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/py/mpconfig.h" 2
+# 788 "/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/py/mpconfig.h"
 typedef float mp_float_t;
 # 30 "<stdin>" 2
 

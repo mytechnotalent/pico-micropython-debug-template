@@ -21,11 +21,14 @@
 # SOFTWARE.
 
 from utime import sleep
+from machine import Pin
 
-name = 'foo'
-number = 42
+led = Pin(25, Pin.OUT)
+# name = 'foo'
+# number = 42
 
 while True:
-    print(name)
-    print(number)
+    # print(name)
+    # print(number)
+    led.toggle()  # noqa
     sleep(5)

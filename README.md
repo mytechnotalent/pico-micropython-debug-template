@@ -69,6 +69,7 @@ gdb-multiarch firmware.elf
 >>> monitor reset init
 >>> b main
 >>> b *0xXXXXXXXX  # replace X's with actual address of where pyexec_frozen_module is called
+>>> b *0xXXXXXXXX  # replace X's with actual address of where pyexec_frozen_module is called
 >>> c
 ```
 

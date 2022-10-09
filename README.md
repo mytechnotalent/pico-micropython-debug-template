@@ -17,18 +17,20 @@
 [Breadboard](https://www.amazon.com/DaFuRui-Solderless-Breadboard-Super-Plug/dp/B081YNHZF5) <br>
 [Breadboard Jumper Wires](https://www.amazon.com/IZOKEE-Solderless-Breadboard-Arduino-Project/dp/B08151TQHG) <br>
 
-## STEP 1: Clone MicroPython Repo
+## STEP 1: Install Dependencies [Raspberry Pi 4 (32-bit)]
 ```bash
-mkdir pico
-cd pico
-git clone -b master https://github.com/micropython/micropython.git
-cd micropython
-make -C ports/rp2 submodules
-make -C mpy-cross
-rm -rf .g*
+wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh
+chmod +x pico_setup.sh
+./pico_setup.sh
+sudo reboot
 ```
 
-## STEP 2: Create `main.py` & Populate
+## STEP 2: Clone Repo [Raspberry Pi 4 (32-bit)]
+```bash
+git clone https://github.com/mytechnotalent/pico-micropython-debug-template.git
+```
+
+## STEP 3: Edit `main.py` & Populate [Raspberry Pi 4 (32-bit)]
 ```python
 from utime import sleep
 
@@ -41,40 +43,23 @@ while True:
     sleep(5)
 ```
 
-## STEP 3: Flash Firmware
+## STEP 4: Build Firmware [Raspberry Pi 4 (32-bit)]
+```bash
+./build.sh
+```
+
+## STEP 5: Flash Firmware [Raspberry Pi 4 (32-bit)]
 ```bash
 ./flash.sh
 ```
 
-## STEP 4: Install Dependencies [Raspberry Pi 4 (32-bit)]
-```bash
-sudo apt install automake autoconf build-essential texinfo libtool libftdi-dev libusb-1.0-0-dev gdb-multiarch
-```
-
-## STEP 5: OpenOCD [Raspberry Pi 4 (32-bit)]
-```bash
-mkdir pico
-cd pico
-git clone https://github.com/raspberrypi/openocd.git --recursive--branch rp2040 --depth=1
-cd openocd
-./bootstrap
-./configure –enable-ftdi –enable-sysfsgpio –enable-bcm2835gpio
-make -j4
-sudo make install
-```
-
-## STEP 6: Run OpenOCD
+## STEP 6: Run OpenOCD [Raspberry Pi 4 (32-bit)]
 ### Terminal 1 [Raspberry Pi 4 (32-bit)]
 ```bash
 openocd -f interface/raspberrypi-swd.cfg -f target/rp2040.cfg
 ```
 
-## STEP 7: Copy `firmware.elf` From PC To Raspberry Pi 4
-```bash
-firmware.elf
-```
-
-## STEP 8: Debugging Hardware w/ `.elf`
+## STEP 7: Debugging Hardware w/ `.elf` [Raspberry Pi 4 (32-bit)]
 ### Terminal 2 [Raspberry Pi 4 (32-bit)]
 ```bash
 gdb-multiarch firmware.elf
@@ -93,7 +78,7 @@ gdb-multiarch firmware.elf
 
 ```
 
-## STEP 9: Debugging RAW Hardware
+## STEP 8: Debugging RAW Hardware [Raspberry Pi 4 (32-bit)]
 ### Terminal 2 [Raspberry Pi 4 (32-bit)]
 ```bash
 gdb-multiarch
@@ -111,7 +96,7 @@ CTRL+C
 
 <br>
 
-## 09/19/22
+## 10/09/22
 ### PROJECT IS UNDER DEVELOPMENT AND WILL HAVE UPDATED CONTENT OVER THE COMING DAYS 
 
 <br>

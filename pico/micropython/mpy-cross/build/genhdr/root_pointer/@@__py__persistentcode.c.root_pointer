@@ -1,1 +1,0 @@
-MP_REGISTER_ROOT_POINTER(mp_obj_t track_reloc_code_list);

@@ -1,5 +1,0 @@
-/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/elf2uf2/CMakeFiles/elf2uf2.dir
-/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/elf2uf2/CMakeFiles/edit_cache.dir
-/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/elf2uf2/CMakeFiles/rebuild_cache.dir
-/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
-/Users/kevinthomas/Documents/pico-micropython-debug-template/pico/micropython/ports/rp2/build-PICO/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

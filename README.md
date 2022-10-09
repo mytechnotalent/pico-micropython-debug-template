@@ -68,13 +68,7 @@ gdb-multiarch firmware.elf
 (gdb) load
 (gdb) monitor reset init
 (gdb) b main
-(gdb) b *(main+98)
 (gdb) c
-(gdb) x/s $r0  # boot.py
-(gdb) b *(main+146)
-(gdb) c
-(gdb) x/s $r0  # main.py
-(gdb) x/s 0x1004239d  # 0x1004239d <mp_frozen_names+29> "main.py"
 ```
 
 ## STEP 8: Debugging RAW Hardware [Raspberry Pi 4 (32-bit)]

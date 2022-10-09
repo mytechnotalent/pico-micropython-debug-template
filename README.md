@@ -68,9 +68,10 @@ gdb-multiarch firmware.elf
 >>> load
 >>> monitor reset init
 >>> b main
->>> b *0xXXXXXXXX  # replace X's with actual address of where pyexec_frozen_module is called
->>> b *0xXXXXXXXX  # replace X's with actual address of where pyexec_frozen_module is called
+>>> b *(mp_execute_bytecode)
 >>> c
+>>> n  # until r4 holds a value of 100XXXXX
+>>> x/x $r4  # check if this value is fun_
 ```
 
 ## STEP 8: Debugging RAW Hardware [Raspberry Pi 4 (32-bit)]
@@ -79,8 +80,8 @@ gdb-multiarch firmware.elf
 gdb-multiarch
 >>> target remote localhost:3333
 >>> monitor reset init
->>> b *0xXXXXXXXX  # replace X's with actual address of main which you can find in Radare2 (1st push to r0, r1, r2, r4, r5, lr followed by 2 bl's to functions
->>> b *0xXXXXXXXX  # replace X's with actual address of where pyexec_frozen_module is called (manual no shortcut here)
+>>> b *0xXXXXXXXX  # replace X's with actual address of main (1st push to r0, r1, r2, r4, r5, lr followed by 2 bl's to functions)
+>>> b *0xXXXXXXXX  # replace X's with actual address of where mp_execute_bytecode is called (manual no shortcut here)
 >>> c
 ```
 

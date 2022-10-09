@@ -22,6 +22,8 @@
 wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh
 chmod +x pico_setup.sh
 ./pico_setup.sh
+cd ~/
+wget https://raw.githubusercontent.com/cyrus-and/gdb-dashboard/master/.gdbinit
 sudo reboot
 ```
 
@@ -33,13 +35,12 @@ git clone https://github.com/mytechnotalent/pico-micropython-debug-template.git
 ## STEP 3: Edit `main.py` & Populate [Raspberry Pi 4 (32-bit)]
 ```python
 from utime import sleep
+from machine import Pin 
 
-name = foo
-number = 42
+led = Pin(25, Pin.OUT)
 
 while True:
-    print(name)
-    print(number)
+    led.toggle()
     sleep(5)
 ```
 
@@ -66,8 +67,7 @@ gdb-multiarch firmware.elf
 (gdb) target remote localhost:3333
 (gdb) load
 (gdb) monitor reset init
-(gdb) layout asm  # 0x100001e8 <_entry_point> movs r0, #0
-(gdb) b main  # 0x10028e2c <main> push {r0, r1, r2, r4, r5, lr} 
+(gdb) b main
 (gdb) b *(main+98)
 (gdb) c
 (gdb) x/s $r0  # boot.py
@@ -75,7 +75,6 @@ gdb-multiarch firmware.elf
 (gdb) c
 (gdb) x/s $r0  # main.py
 (gdb) x/s 0x1004239d  # 0x1004239d <mp_frozen_names+29> "main.py"
-
 ```
 
 ## STEP 8: Debugging RAW Hardware [Raspberry Pi 4 (32-bit)]

@@ -64,11 +64,15 @@ openocd -f interface/raspberrypi-swd.cfg -f target/rp2040.cfg
 ### Terminal 2 [Raspberry Pi 4 (32-bit)]
 ```bash
 gdb-multiarch firmware.elf
-(gdb) target remote localhost:3333
-(gdb) load
-(gdb) monitor reset init
-(gdb) b main
-(gdb) c
+>>> target remote localhost:3333
+>>> load
+>>> monitor reset init
+>>> b main
+>>> c
+>>> disas  # disassemble main and find pyexec_frozen_module
+>>> b *0xXXXXXXXX  # replace X's with actual address of where pyexec_frozen_module is called
+>>> c
+>>> si
 ```
 
 ## STEP 8: Debugging RAW Hardware [Raspberry Pi 4 (32-bit)]

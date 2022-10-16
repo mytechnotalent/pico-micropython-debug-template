@@ -85,9 +85,15 @@ gdb-multiarch
 >>> c
 ```
 
+## OPTIONAL STEP 9: Extract Flash [Raspberry Pi 4 (32-bit)]
+### Terminal 3 [Raspberry Pi 4 (32-bit)]
+```bash
+sudo picotool save -a firmware.bin
+```
+
 <br>
 
-## 10/09/22
+## 10/16/22
 ### PROJECT IS UNDER DEVELOPMENT AND WILL HAVE UPDATED CONTENT OVER THE COMING DAYS 
 
 <br>

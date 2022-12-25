@@ -93,10 +93,5 @@ sudo picotool save -a firmware.bin
 
 <br>
 
-## 10/16/22
-### PROJECT IS UNDER DEVELOPMENT AND WILL HAVE UPDATED CONTENT OVER THE COMING DAYS 
-
-<br>
-
 ## License
 [MIT License](https://raw.githubusercontent.com/mytechnotalent/pico-micropython-debug-template/main/LICENSE)

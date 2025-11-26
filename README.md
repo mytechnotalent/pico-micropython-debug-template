@@ -8,16 +8,20 @@
 
 <br>
 
-## Schematic
+# Schematic
 ![image](https://github.com/mytechnotalent/pico-micropython-debug-template/blob/main/schematic.png?raw=true)
 
-## Parts
+<br>
+
+# Parts
 [Raspberry Pi 4](https://www.amazon.com/Argon-Raspberry-Model-Case-AR_NEO_RPi4_2Gig_32GigSD/dp/B08BWNJLJ4) <br>
 [Raspberry Pi Pico](https://www.amazon.com/Raspberry-Pre-Soldered-Microcontroller-Development-Dual-Core/dp/B08X7HN2VG) <br>
 [Breadboard](https://www.amazon.com/DaFuRui-Solderless-Breadboard-Super-Plug/dp/B081YNHZF5) <br>
 [Breadboard Jumper Wires](https://www.amazon.com/IZOKEE-Solderless-Breadboard-Arduino-Project/dp/B08151TQHG) <br>
 
-## STEP 1: Install Dependencies [Raspberry Pi 4 (32-bit)]
+<br>
+
+# STEP 1: Install Dependencies [Raspberry Pi 4 (32-bit)]
 ```bash
 wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh
 chmod +x pico_setup.sh
@@ -27,12 +31,12 @@ wget https://raw.githubusercontent.com/cyrus-and/gdb-dashboard/master/.gdbinit
 sudo reboot
 ```
 
-## STEP 2: Clone Repo [Raspberry Pi 4 (32-bit)]
+# STEP 2: Clone Repo [Raspberry Pi 4 (32-bit)]
 ```bash
 git clone https://github.com/mytechnotalent/pico-micropython-debug-template.git
 ```
 
-## STEP 3: Edit `main.py` & Populate [Raspberry Pi 4 (32-bit)]
+# STEP 3: Edit `main.py` & Populate [Raspberry Pi 4 (32-bit)]
 ```python
 from utime import sleep
 from machine import Pin 
@@ -44,23 +48,23 @@ while True:
     sleep(5)
 ```
 
-## STEP 4: Build Firmware [Raspberry Pi 4 (32-bit)]
+# STEP 4: Build Firmware [Raspberry Pi 4 (32-bit)]
 ```bash
 ./build.sh
 ```
 
-## STEP 5: Flash Firmware [Raspberry Pi 4 (32-bit)]
+# STEP 5: Flash Firmware [Raspberry Pi 4 (32-bit)]
 ```bash
 ./flash.sh
 ```
 
-## STEP 6: Run OpenOCD [Raspberry Pi 4 (32-bit)]
+# STEP 6: Run OpenOCD [Raspberry Pi 4 (32-bit)]
 ### Terminal 1 [Raspberry Pi 4 (32-bit)]
 ```bash
 openocd -f interface/raspberrypi-swd.cfg -f target/rp2040.cfg
 ```
 
-## STEP 7: Debugging Hardware w/ `.elf` [Raspberry Pi 4 (32-bit)]
+# STEP 7: Debugging Hardware w/ `.elf` [Raspberry Pi 4 (32-bit)]
 ### Terminal 2 [Raspberry Pi 4 (32-bit)]
 ```bash
 gdb-multiarch firmware.elf
@@ -74,7 +78,7 @@ gdb-multiarch firmware.elf
 >>> x/x $r4  # check if this value is fun_
 ```
 
-## STEP 8: Debugging RAW Hardware [Raspberry Pi 4 (32-bit)]
+# STEP 8: Debugging RAW Hardware [Raspberry Pi 4 (32-bit)]
 ### Terminal 2 [Raspberry Pi 4 (32-bit)]
 ```bash
 gdb-multiarch
@@ -85,7 +89,7 @@ gdb-multiarch
 >>> c
 ```
 
-## OPTIONAL STEP 9: Extract Flash [Raspberry Pi 4 (32-bit)]
+# OPTIONAL STEP 9: Extract Flash [Raspberry Pi 4 (32-bit)]
 ### Terminal 3 [Raspberry Pi 4 (32-bit)]
 ```bash
 sudo picotool save -a firmware.bin
@@ -93,5 +97,5 @@ sudo picotool save -a firmware.bin
 
 <br>
 
-## License
+# License
 [MIT License](https://raw.githubusercontent.com/mytechnotalent/pico-micropython-debug-template/main/LICENSE)
